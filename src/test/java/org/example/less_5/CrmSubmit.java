@@ -1,4 +1,4 @@
-package org.example.Less_3;
+package org.example.less_5;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
@@ -15,7 +15,7 @@ public class CrmSubmit {
         driver.get("https://crm.geekbrains.space/user/login");
         login(driver);
 
-        Thread.sleep(8000);
+        Thread.sleep(5000);
 
         driver.quit();
     }
